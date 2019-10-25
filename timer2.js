@@ -91,6 +91,8 @@ function myFunction() {
 
 function reset(){
 	myVar = clearInterval(timer)
+	sound.pause();
+	sound.currentTime = 0;
 	hasil.innerHTML = 'Click Start for timer'
 	btn.disabled = false
 	timer = null
