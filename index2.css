@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgba(12, 6, 0, 0.986);
+    background-color: rgba(240, 240, 240, 0.986);
     overflow: hidden;
 }
 
@@ -11,7 +11,7 @@ body {
     width: 60px;
     height: 30px;
     top: 50px;
-    background-color: black;
+    /* background-color: black; */
     text-align: center;
     padding-top: 10px;
 }
@@ -20,6 +20,7 @@ body {
     left: 3px;
     background-color: rgba(240, 240, 240, 0.986);
 }
+
 #theme2 {
     position : fixed;
     right: 3px;
@@ -50,7 +51,7 @@ body {
 
 #hasilTimer {
     background-color: transparent;
-    color: whitesmoke;
+    color: rgb(24, 22, 22);
     font-size: 4em;
     width: 65vw;
     height: 30vh;
@@ -71,17 +72,17 @@ body {
     height: 40px;
     margin: 7px;
     margin-top: 10px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(93, 255, 101, 0.856);
-    border: 2px bold whitesmoke;
+    color: rgb(255, 255, 255);
+    background-color: rgba(69, 37, 248, 0.856);
+    border: 2px bold rgb(24, 21, 21), 28);
     border-radius: 15px;
 }
 
 #startButton:disabled, #pauseButton:disabled{
     background-color: transparent;
     outline: none;
-    border: 0.5px solid rgba(255, 255, 255, 0.432);
-    color: rgba(255, 255, 255, 0.473);
+    border: 0.5px solid rgba(10, 10, 10, 0.432);
+    color: rgba(5, 4, 4, 0.473);
 }
 
 span {
