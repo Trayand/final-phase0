@@ -23,6 +23,7 @@ body {
 
 #theme2 {
     position : fixed;
+    display: none;
     right: 3px;
     background-color: rgba(12, 6, 0, 0.986);
 }
@@ -34,6 +35,7 @@ body {
 }
 
 #theme2 a {
+    display: none;
     text-decoration: none;
     color: white;
     font-size: 0.7rem;
