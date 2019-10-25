@@ -76,7 +76,7 @@ body {
     margin-top: 10px;
     color: rgb(255, 255, 255);
     background-color: rgba(69, 37, 248, 0.856);
-    border: 2px bold rgb(24, 21, 21), 28);
+    border: 2px bold rgb(24, 21, 21, 28);
     border-radius: 15px;
 }
 
@@ -109,6 +109,9 @@ input[type=number] {
         margin-bottom: 30px;
         font-size: 2em;
     }
+    span {
+        font-size : 1.3rem;
+    }
 }
 
 @media (min-width: 0px) and (max-width:330px) {
@@ -117,6 +120,9 @@ input[type=number] {
         height: 15vh;
         margin-bottom: 30px;
         font-size: 2em;
+    }
+    span {
+        font-size : 1.3rem;
     }
     #pauseButton {
         display: none;

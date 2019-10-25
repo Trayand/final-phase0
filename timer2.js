@@ -1,7 +1,9 @@
 var timer = null
 var t = 0
 var angka = 0
-// 
+//
+var muss = new Audio('sad.mp3'); 
+//
 var btn = document.getElementById('startButton')
 var btnPause = document.getElementById('pauseButton')
 var hasil = document.getElementById('hasilTimer')
@@ -56,6 +58,7 @@ function hitung(t) {
 				t--
 				angka++
 			}else{
+				muss.play()
 				hasil.innerHTML = 'Timer is Over'
 				alert("YOUR TIME HAS COME!!!")
 				btn.disabled = false
