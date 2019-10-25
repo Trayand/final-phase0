@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TIMER</title>
+</head>
+<body>
+    <div id="all">
+        <div id="hasilTimer">Click Start for timer</div>
+        <div id="input">
+            <input type="number" class="inputNum hour" max="23" placeholder="Jam">
+            <input type="number" class="inputNum" max="59" placeholder="Menit">
+            <input type="number" class="inputNum" max="59" placeholder="Detik"> 
+        </div>        
+        <div>
+            <button id="startButton" onclick="hitung(t)">Start</button>
+            <button id="pauseButton" onclick="myFunction()" disabled>Pause</button>
+            <button id="resetButton" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src= "timer2.js"></script>
+    <!-- <p>This is a Timer :</p> -->
+</body>
+</html>

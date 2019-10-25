@@ -1,0 +1,70 @@
+body {
+    background-color: rgba(12, 6, 0, 0.986);
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+#all {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+#hasilTimer {
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 4em;
+    width: 65vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.inputNum {
+    width: 60px;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+#startButton, #pauseButton, #resetButton {
+    width: 90px;
+    height: 40px;
+    margin: 7px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(93, 255, 101, 0.856);
+    border: 2px bold whitesmoke;
+    border-radius: 15px;
+}
+
+#startButton:disabled, #pauseButton:disabled{
+    background-color: transparent;
+    outline: none;
+    border: 0.5px solid rgba(255, 255, 255, 0.432);
+    color: rgba(255, 255, 255, 0.473);
+}
+
+span {
+    font-size : 2.3rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    /* -moz-appearance:textfield; Firefox */
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
