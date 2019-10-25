@@ -19,11 +19,11 @@ body {
     position: fixed;
     left: 3px;
     background-color: rgba(240, 240, 240, 0.986);
+    display: none;
 }
 
 #theme2 {
     position : fixed;
-    display: none;
     right: 3px;
     background-color: rgba(12, 6, 0, 0.986);
 }
@@ -31,11 +31,11 @@ body {
 #theme1 a {
     color: rgb(22, 21, 21);
     text-decoration: none;
+    display: none;
     font-size: 0.7rem;
 }
 
 #theme2 a {
-    display: none;
     text-decoration: none;
     color: white;
     font-size: 0.7rem;
