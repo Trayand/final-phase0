@@ -101,3 +101,24 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance:textfield;
 }
+
+@media (min-width: 0px) and (max-width:730px) {
+    #hasilTimer {
+        width: 40vw;
+        height: 15vh;
+        margin-bottom: 30px;
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 0px) and (max-width:330px) {
+    #hasilTimer {
+        width: 40vw;
+        height: 15vh;
+        margin-bottom: 30px;
+        font-size: 2em;
+    }
+    #pauseButton {
+        display: none;
+    }
+}
